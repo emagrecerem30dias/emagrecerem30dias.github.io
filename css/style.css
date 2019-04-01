@@ -1,0 +1,505 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+}
+
+.intro{
+	background-image: url("jujuweb.png");
+	background-attachment: fixed;
+
+}
+
+.intro h1{
+
+font-size: 38px;
+font-weight: 700;
+line-height: 46px;
+color:#3f4755;
+width: 380px;
+text-align: center;
+}
+.intro b{
+	color: #32B95B;
+}
+.intro h4{
+	font-size: 18px;
+	line-height: 28px;
+	color:#3f4755;
+	width: 380px;
+	text-align: center;
+
+}
+
+#contentWrapper{
+    width: 90%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+#content{
+	text-align:center;
+}
+
+#button{
+	text-align:center;
+	margin: auto;
+	margin-top: 60px;
+	padding: 36px 60px;
+	display:block;
+	width: 100%;
+  max-width: 500px;
+
+	cursor:pointer;
+	font-size:25px;
+	color:#fff;
+	border-radius:55px;
+	border-bottom:3px solid #2B9E4E;
+	box-shadow: inset 0 -5px 0 rgba(0,0,0,.15);
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+
+	background-color: #32b95b;
+	-webkit-transition: background 0.05s linear;
+    -moz-transition: background 0.05s linear;
+    -o-transition: background 0.05s linear;
+    transition: background 0.05s linear;
+	background-size:1px 200px;
+	transition: all .05s linear;
+}
+
+#button:hover{
+	background-position:100px;
+
+	box-shadow: 2px 2px 2px #777;
+	border-bottom:3px solid #2B9E4E;
+	transform: translateY(3px);
+	text-decoration:none;
+}
+
+.description{
+	background: #262327;
+	padding: 60px 40px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.description h2{
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+
+.description p{
+	line-height: 22px;
+	font-size:18px;
+	color: #ef811d;
+	margin-bottom: 32px;
+}
+
+.description span{
+
+     line-height: 25px;
+	font-size:21px;
+	color: #fff;
+	font-weight: 400;
+
+
+}
+.description h5{
+	font-weight: 700;
+	margin-bottom: 52px;
+	font-size:26px;
+
+}
+
+.fas.fa-check-circle{
+	color: #ef811d ;
+}
+
+
+
+.description .side-right h4{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.product{
+	padding: 60px 40px;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.product h2{
+	color: #262327;
+	font-size: 30px;
+	text-align: center;
+	line-height: 39px;
+	font-weight: 700;
+	margin-bottom: 38px;
+
+}
+
+.product img{
+	vertical-align: middle;
+	border: 0;
+	width: 25%;
+	margin-bottom: 42px;
+}
+
+
+.product .item h5{
+	  min-height: 60px;
+    background-color: #fff;
+    max-width: 450px;
+    width: 100%;
+    margin-left: 40px;
+    text-align: left;
+    padding: 0 30px;
+    margin-bottom: 45px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.product .item.item-1 h5{ border-left: 4px solid #47C8CC;}
+.product .item.item-2 h5{ border-left: 4px solid #32B95B;}
+.product .item.item-3 h5{ border-left: 4px solid #B9A832;}
+.product .item.item-4 h5{ border-left: 4px solid #CF87EB;}
+.product .item.item-5 h5{ border-left: 4px solid #D7385F;}
+.product .item.item-6 h5{ border-left: 4px solid #87A3EB;}
+
+
+.results{
+	padding:  40px;
+}
+
+.results h2{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 42px;
+}
+
+.get-book{
+	padding: 40px;
+}
+
+.get-book h2{
+	color: #2ad25d;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 700;
+}
+
+.testimonials{
+	padding: 40px;
+	background: #272327;
+}
+
+.testimonials h2{
+	color: #fff;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 700;
+
+}
+
+.testimonials p{
+	color: #32b95b;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.testimonials .testimonial p{
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 400;
+padding: 16px 30px;
+	padding-bottom: 10px;
+
+}
+.testimonials .testimonial span{
+	color: #FFE6A3;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 400;
+	padding: 16px 30px;
+
+}
+
+.videos{
+	padding: 40px;
+}
+
+.videos iframe{
+   left: -40px;
+	 position: relative;
+}
+
+.videos h2{
+	color: #2BD15D;
+	font-size: 36px;
+	line-height: 39px;
+	font-weight: 700;
+}
+
+.question{
+	padding: 60px;
+	background: #f2f2f2;
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.question h2{
+	font-size: 36px;
+	line-height: 39px;
+	font-weight: 700;
+		color: #2BD15D;
+}
+.warranty{
+	background: #272327 ;
+	padding: 60px;
+	height: 340px;
+	margin-bottom: 150px;
+}
+
+.warranty h2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 39px;
+}
+
+.warranty h3{
+		font-size: 18px;
+		color: #ef811d;
+		line-height: 23px;
+		font-weight: 700;
+}
+.warranty .text{
+	padding: 40px;
+}
+
+.warranty .text h3{
+	font-size: 18px;
+	color: #6b6b6b;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+.warranty .text h2{
+	font-size: 18px;
+	color: #6b6b6b;
+	font-weight: 700;
+	line-height: 23px;
+}
+
+
+.invest{
+	padding: 60px;
+	margin-top: 150px;
+}
+
+.invest h2{
+	margin-bottom: 60px;
+	margin: auto;
+	margin-top: 100px;
+	max-width: 600px;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 33px;
+
+}
+.invest b{
+	color: #ef811d;
+}
+
+.invest h3{
+	text-decoration: line-through;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 33px;
+	margin-top: 30px;
+	color: #ef811d;
+}
+
+.invest h4{
+	font-size: 30px;
+	line-height: 33px;
+	color: #3f4755;
+	font-weight: 700;
+	margin-bottom: 32px;
+}
+
+.invest .value h2{
+	margin-top: -2px;
+	margin-bottom: 12px;
+	line-height: 52px;
+	color: #32B95B;
+	font-size: 47px;
+	font-weight: 700;
+
+}
+
+.invest .value h6{
+	color: #32B95B!important;
+	line-height: 33px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.invest .value b{
+	color: #3F4755;
+
+}
+
+
+.faq{
+	padding: 60px;
+	background: #272327;
+	color: #fff;
+}
+
+.faq img{
+	vertical-align: middle;
+	margin-top: 50px;
+	width: 300px;
+	height: 300px;
+}
+
+.faq .question{
+	background: transparent;
+	margin-bottom: -100px;
+}
+.faq  .question h5{
+		font-size: 16px;
+		font-weight: 700;
+}
+.faq .question p{
+	font-size: 14px;
+	font-weight: 400;
+
+}
+
+footer{
+	padding: 60px;
+
+}
+footer a{
+	font-size: 12px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #272327;
+}
+
+/*------------------- responsive/media-query----------------*/
+
+@media (max-width: 959px){
+
+.intro h1{
+	font-size: 32px!important;
+	width: 300px;
+}
+
+.intro h4{
+	width: 300px;
+}
+
+
+
+#button{
+	width: 316px;
+	font-size: 16px;
+	padding: 16px 24px;
+	margin-top: 16px;
+
+}
+
+.product img.book{
+	width: 300px;
+	height: 300px;
+}
+iframe{
+	width: 320px;
+
+}
+
+.warranty{
+	height: auto;
+
+}
+
+.warranty h2{
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+
+}
+.warranty h3{
+		margin-bottom: 20px;
+}
+.warranty .text{
+	width: 300px;
+	text-align: center;
+	left: -35px;
+	position: relative;
+
+}
+
+.warranty .text h3, .warranty .text h2{
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+
+}
+
+.invest{
+	margin-top: -175px;
+}
+
+.invest #button{
+	padding: 8px 12px ;
+	margin: auto;
+	max-width: 250px;
+	margin-top: 30px;
+	margin-left: -10px;
+
+}
+
+.invest .value h2{
+	font-size: 34px;
+}
+
+
+.faq img{
+	width: 280px;
+	height: 280px;
+	margin: auto;
+}
+
+.faq .question{
+	width: 316px;
+	padding: auto 0;
+	left: -20px;
+	position: relative;
+}
+
+
+
+footer{
+	width: 139%;
+	margin: auto;
+	padding: auto 0;
+	left: -70px;
+	position: relative;
+}
+
+
+}/*fim*/
